@@ -1,11 +1,45 @@
 *{
     margin: 0px;
     padding: 0px;
-    background-color: gainsboro;
+    font-family: 'DynaPuff', cursive;
+
 }
 .Header{
     display: flex;
     align-items: center;
-    background-color: #0675c4;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    transition: ease-in;
+    transition-duration: 500ms;
     height: 55px;
+    justify-content:flex-start;
+    text-decoration: none;
+}
+.Header a img{
+    height: 59px;
+    width: 50px;
+}
+.Headings a{
+    text-decoration: none;
+}
+
+.imgofall{
+    margin-left: 100px;
+}
+
+.Headings{
+    display: flex;
+    padding-left: 600px;
+    gap: 15px;
+    height: auto;
+    padding-top: 5px;
+}
+
+.HeaderClassTag a{
+    text-decoration: none;
+}
+
+.Header:hover{
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
 }
