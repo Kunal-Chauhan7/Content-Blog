@@ -2,7 +2,6 @@
     margin: 0px;
     padding: 0px;
     font-family: 'DynaPuff', cursive;
-
 }
 .Header{
     display: flex;
@@ -15,6 +14,8 @@
     text-decoration: none;
     position: sticky;
     top: 0px;
+    gap: 600px;
+
 }
 .Header a img{
     height: 59px;
@@ -30,11 +31,10 @@
 
 .Headings{
     display: flex;
-    padding-left: 600px;
     gap: 15px;
+    flex-wrap: wrap;
     height: auto;
     padding-top: 5px;
-
 }
 
 .HeaderClassTag a{
@@ -65,4 +65,49 @@
     background-color: #00DBDE;
     transition: all 0.6s ease-out;
     background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+}
+
+.main_content{
+    border: solid black 1.5px;
+    border-radius:6px ;
+    background-color: rgb(214, 214, 214);
+    margin-left: 200px;
+    margin-right: 100px;
+}
+.Outside_of_main_contetnt{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(172, 255, 47, 0.514);
+    height: 100%;
+}
+.Side_Navigation{
+    width: 150px;
+    height: 100%;
+    display: flex;
+    position:fixed;
+    background-color: aquamarine;
+    gap: 15px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.Side_Navigation a{
+    text-decoration: none;
+}
+
+.Title{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    position: sticky;
+    top: 55px;
+    border: solid black 2px;
+    background-color: aliceblue;
+    margin-left: 150px; 
+}
+
+.MainContent_above{
+    
 }
