@@ -119,7 +119,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    }
+    margin: 15px;
+}
 .fontclass{
     font-family: 'Times New Roman', Times, serif;
 }
@@ -136,6 +137,7 @@
     transform: scale(1.1);
     transition: ease-in-out;
     transition-duration: 250ms;
+    margin: 30px;
 }
 
 @media screen and (max-width: 1032px) {
