@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'DynaPuff', cursive;
+}
 .Header{
     display: flex;
     align-items: center;
@@ -10,4 +15,53 @@
     position: sticky;
     top: 0px;
     gap: 600px;
+}
+.Header a img{
+    height: 59px;
+    width: 50px;
+}
+.Headings a{
+    text-decoration: none;
+}
+
+.imgofall{
+    margin-left: 100px;
+}
+
+.Headings{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    height: auto;
+    padding-top: 5px;
+}
+
+.HeaderClassTag a{
+    text-decoration: none;
+}
+
+
+.HeaderClassTag{
+    transform: scale(1);
+    transition: ease-in;
+    transition-duration: 500ms;
+    font-weight: bolder;
+}
+
+.HeaderClassTag:hover{
+    transform: scale(1.15);
+    transition: ease-in;
+    transition-duration: 500ms;
+}
+
+.HeaderClassTag a:hover{
+    text-decoration: underline 3px yellowgreen ;
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+}
+
+.Header:hover{
+    background-color: #00DBDE;
+    transition: all 0.6s ease-out;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
 }
